@@ -1,0 +1,101 @@
+{
+	"match_brackets": false, // disable default ST bracket highlighting
+	// Show brackets in the minimap.
+    "show_in_minimap": false,
+    // When only either the left or right bracket can be found
+    // this defines if the unmatched bracket should be shown.
+    "show_unmatched": true,
+      // Do the opposite of "show_unmatched" for the languages listed below
+    "show_unmatched_exceptions": [],
+    // Experimental: Creates a visible bar at the beginning of all lines between
+    // multiline bracket spans.
+    "content_highlight_bar": false,
+    // Experimental: Align the content highlight bar at the bracket indent level
+    "align_content_highlight_bar": false,
+     // Enable high visibility by default when sublime starts up
+    "high_visibility_enabled_by_default": false,
+    // High visibility style and color for high visibility mode
+    "high_visibility_style": "outline",
+    // Color for high visibility mode
+    "high_visibility_color": "__bracket__",
+    // Match brackets only when the cursor is touching the inside of the bracket
+    "match_only_adjacent": false,
+     // Outside adjacent bracket matching
+    "bracket_outside_adjacent": true,
+    // EXPERIMENTAL: Special matching mode for block cursor.
+    // Essentially, this provides a matching mode that makes a little more
+    // sense to some in regards to the visual representation of block cursors.
+    // This will ignore "bracket_outside_adjacent".
+    "block_cursor_mode": false,
+     // When "bracket_outside_adjacet" is set, and a plugin command explicitly sets
+    // "no_outside_adj" "None" instead of "true" or the default "false",
+    // this value will be used.
+    "ignore_outside_adjacent_in_plugin": true,
+    // When "block_cursor_mode" is set, and a plugin command explicitly sets
+    // "no_block_mode" to "None" instead of "true" or the default "false",
+    // this value will be used.
+    "ignore_block_mode_in_plugin": true,
+     // Set mode for string escapes to ignore (regex|string)
+    "bracket_string_escape_mode": "string",
+    // Character threshold to search
+    "search_threshold": 5000,
+    // Ignore threshold
+    "ignore_threshold": false,
+     // Set max number of multi-select brackets that will be searched automatically
+    "auto_selection_threshold" : 10,
+    // Enable this to completely kill highlighting if "auto_selection_threshold"
+    // is exceeded.  Default is to highlight up to the "auto_selection_threshold".
+    "kill_highlight_on_threshold": true,
+    // Disable gutter icons when doing multi-select
+    "no_multi_select_icons": false,
+    // Style to use for matched tags
+    "tag_style": "tag",
+     // Scopes to exclude from tag searches
+    "tag_scope_exclude": ["string", "comment"],
+     // Determine which style of tag-matching to use in which syntax
+    "tag_mode": {
+        "xhtml": ["XML"],
+        "html": ["HTML", "HTML 5", "PHP"],
+        "cfml": ["HTML+CFML", "ColdFusion", "ColdFusionCFC"]
+    },
+
+     // Self closing HTML tags
+    "self_closing_tags": [
+        "colgroup", "dd", "dt", "li", "options", "p", "td",
+        "tfoot", "th", "thead", "tr"
+    ],
+     // Tags that never have a closing
+    "single_tags": [
+        "area", "base", "basefont", "br", "col", "embed", "frame", "hr",
+        "img", "input", "isindex", "keygen", "link", "meta", "param",
+        "source", "track", "wbr"
+    ],
+     "swapping": [
+        {
+            "enabled": true,
+            "language_list": ["C++", "C"],
+            "language_filter": "whitelist",
+            "entries": [
+                {"name": "C/C++: #if", "brackets": ["#if ${BH_SEL}", "#endif"]},
+                {"name": "C/C++: #if, #else", "brackets": ["#if${BH_SEL}", "#else\n${BH_TAB:/* CODE */}\n#endif"]},
+                {"name": "C/C++: #if, #elif", "brackets": ["#if${BH_SEL}", "#elif ${BH_TAB:/* CONDITION */}\n${BH_TAB:/* CODE */}\n#endif"]},
+                {"name": "C/C++: #ifdef", "brackets": ["#ifdef${BH_SEL}", "#endif"]},
+                {"name": "C/C++: #ifdef, #else", "brackets": ["#ifdef${BH_SEL}", "#else\n${BH_TAB:/* CODE */}\n#endif"]},
+                {"name": "C/C++: #ifndef", "brackets": ["#ifndef${BH_SEL}", "#endif"]},
+                {"name": "C/C++: #ifndef, #else", "brackets": ["#ifndef${BH_SEL}", "#else\n${BH_TAB:/* CODE */}\n#endif"]}
+            ]
+        }
+    ],
+     "wrapping": [
+        {
+            "enabled": true,
+            "language_list": ["Plain text"],
+            "language_filter": "blacklist",
+            "entries": [
+                {"name": "{} Curly", "brackets": ["{", "}${BH_SEL}"], "insert_style": ["inline", "block", "indent_block"]}
+            ]
+        }
+    ],
+
+    
+}

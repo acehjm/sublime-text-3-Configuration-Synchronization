@@ -1,0 +1,27 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"BracketHighlighter",
+		"ConvertToUTF8",
+		"MarkdownEditing",
+		"Material Theme",
+		"Material Theme - Appbar",
+		"Material Theme - White Panels",
+		"Materialize",
+		"One Dark Material - Theme",
+		"Package Control",
+		"PackageResourceViewer",
+		"PlainTasks",
+		"Predawn",
+		"SideBarEnhancements",
+		"SublimeLinter-xmllint",
+		"Tag",
+		"Task",
+		"Theme - Fox",
+		"Theme - Spacegray"
+	]
+}
