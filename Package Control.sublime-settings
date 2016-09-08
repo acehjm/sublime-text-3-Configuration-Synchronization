@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"Boxy Theme",
 		"BracketHighlighter",
 		"ConvertToUTF8",
 		"DocBlockr",
@@ -13,7 +14,6 @@
 		"Material Theme",
 		"Material Theme - Appbar",
 		"Material Theme - White Panels",
-		"Materialize",
 		"Materialize-Appbar",
 		"Package Control",
 		"PackageResourceViewer",
