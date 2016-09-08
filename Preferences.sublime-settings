@@ -1,12 +1,12 @@
 {
 	"always_show_minimap_viewport": true,
 	"auto_find_in_selection": true,
-	"bold_folder_labels": false,
+	"bold_folder_labels": true,
 	"caret_extra_bottom": 2,
 	"caret_extra_top": 2,
 	"caret_extra_width": 2,
 	"caret_style": "phase",
-	"color_scheme": "Packages/Materialize/schemes/Material Glacier.tmTheme",
+	"color_scheme": "Packages/Materialize/schemes/Material Primer Light.tmTheme",
 	"command": "reindent",
 	"default_line_ending": "unix",
 	"drag_text": false,
@@ -16,7 +16,7 @@
 	[
 		"directwrite"
 	],
-	"font_size": 12,
+	"font_size": 11,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -31,7 +31,7 @@
 	],
 	"line_padding_bottom": 2,
 	"line_padding_top": 2,
-	"material_theme_accent_purple": true,
+	"material_theme_accent_indigo": true,
 	"material_theme_bold_tab": false,
 	"material_theme_compact_panel": true,
 	"material_theme_compact_sidebar": true,

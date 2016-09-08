@@ -22,9 +22,9 @@
 		"sublimelint",
 		"SublimeLinter-xmllint",
 		"SublimeTmpl",
+		"SyncedSideBar",
 		"Tag",
 		"Task",
-		"Theme - Fox",
-		"Theme - Spacegray"
+		"WakaTime"
 	]
 }
