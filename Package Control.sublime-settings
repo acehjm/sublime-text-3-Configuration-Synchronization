@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"ayu",
 		"Boxy Theme",
 		"BracketHighlighter",
 		"ConvertToUTF8",
@@ -16,15 +17,12 @@
 		"Material Theme - White Panels",
 		"Materialize-Appbar",
 		"Package Control",
-		"PackageResourceViewer",
-		"PlainTasks",
 		"SideBarEnhancements",
 		"sublimelint",
 		"SublimeLinter-xmllint",
 		"SublimeTmpl",
 		"SyncedSideBar",
 		"Tag",
-		"Task",
-		"WakaTime"
+		"Task"
 	]
 }
